@@ -109,12 +109,16 @@ print ("test_set_y shape: " + str(test_set_y.shape))
 **Expected Output for m_train, m_test and num_px**: 
 <table style="width:15%">
   <tr>
-    <td>**m_train**</td>
+    <td>
+    **m_train**
+    </td>
     <td> 209 </td> 
   </tr>
   
   <tr>
-    <td>**m_test**</td>
+    <td>
+    **m_test**
+    </td>
     <td> 50 </td> 
   </tr>
   
