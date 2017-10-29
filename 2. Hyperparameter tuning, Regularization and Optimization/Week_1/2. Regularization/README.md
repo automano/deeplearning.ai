@@ -535,12 +535,10 @@ print ("A3 = " + str(A3))
     <td>
     **A3**
     </td>
-        <td>
+    <td>
     [[ 0.36974721  0.00305176  0.04565099  0.49683389  0.36974721]]
     </td>
-    
     </tr>
-
 </table> 
 
 ### 3.2 - Backward propagation with dropout
@@ -705,6 +703,7 @@ plot_decision_boundary(lambda x: predict_dec(parameters, x.T), train_X, train_Y)
 
 <font color='blue'>
 **What you should remember about dropout:**
+
 - Dropout is a regularization technique.
 - You only use dropout during training. Don't use dropout (randomly eliminate nodes) during test time.
 - Apply dropout both during forward and backward propagation.
@@ -765,7 +764,11 @@ Note that regularization hurts training set performance! This is because it limi
 Congratulations for finishing this assignment! And also for revolutionizing French football. :-) 
 
 <font color='blue'>
-**What we want you to remember from this notebook**:
-- Regularization will help you reduce overfitting.
-- Regularization will drive your weights to lower values.
-- L2 regularization and Dropout are two very effective regularization techniques.
+**What we want you to remember from this notebook:**
+- [Regularization](#regularization)
+    - [1 - Non-regularized model](#1---non-regularized-model)
+    - [2 - L2 Regularization](#2---l2-regularization)
+    - [3 - Dropout](#3---dropout)
+        - [3.1 - Forward propagation with dropout](#31---forward-propagation-with-dropout)
+        - [3.2 - Backward propagation with dropout](#32---backward-propagation-with-dropout)
+    - [4 - Conclusions](#4---conclusions)
